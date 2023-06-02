@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class NotNill
+class NotNillClass
   include Singleton
 
   def ==(other)

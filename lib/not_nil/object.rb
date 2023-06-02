@@ -7,5 +7,5 @@ class Object
 end
 
 def not_nil
-  NotNill.instance
+  NotNillClass.instance
 end
