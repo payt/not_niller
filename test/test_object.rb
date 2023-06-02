@@ -15,6 +15,6 @@ class ObjectTest < Minitest::Test
   end
 
   def test_not_nil
-    assert_equal NotNillClass.instance, not_nil
+    assert_equal NotNil::NotNilClass.instance, not_nil
   end
 end

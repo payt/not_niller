@@ -1,16 +1,20 @@
 # frozen_string_literal: true
 
-class NotNillClass
-  include Singleton
+require "singleton"
 
-  def ==(other)
-    !other.nil?
-  end
+module NotNil
+  class NotNilClass
+    include Singleton
 
-  def inspect
-    "not_nil"
+    def ==(other)
+      !other.nil?
+    end
+
+    def inspect
+      "not_nil"
+    end
   end
 end
 
-require "not_nil/object.rb"
-extend NotNill
+require "not_nil/object"
+extend NotNil::TopLevel

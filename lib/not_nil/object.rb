@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-module NotNill
-  def self.not_nil
-    NotNillClass.instance
+module NotNil
+  module TopLevel
+    def self.not_nil
+      ::NotNil::NotNilClass.instance
+    end
   end
 end
 
