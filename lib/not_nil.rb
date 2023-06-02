@@ -13,3 +13,4 @@ class NotNillClass
 end
 
 require "not_nil/object.rb"
+extend NotNill
