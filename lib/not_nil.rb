@@ -15,6 +15,3 @@ module NotNil
     end
   end
 end
-
-require "not_nil/object"
-extend NotNil::TopLevel
