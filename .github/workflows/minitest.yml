@@ -5,6 +5,7 @@ on:
       - 'lib/**'
       - 'test/**'
       - '.github/workflows/minitest.yml'
+      - 'Gemfile.lock'
 jobs:
   run-minitest:
     runs-on: ubuntu-latest
