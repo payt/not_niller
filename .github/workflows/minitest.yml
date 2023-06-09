@@ -15,6 +15,7 @@ jobs:
         with:
           # runs 'bundle install' and caches installed gems automatically
           bundler-cache: true
+          ruby-version: '2.6'
       - name: Run tests
         run: |
           rake test
