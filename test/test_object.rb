@@ -1,5 +1,7 @@
-require "minitest/autorun"
-require "not_nil"
+# frozen_string_literal: true
+
+require 'minitest/autorun'
+require 'not_nil'
 
 class ObjectTest < Minitest::Test
   def test_defines_not_nil_on_object
@@ -15,6 +17,6 @@ class ObjectTest < Minitest::Test
   end
 
   def test_not_nil
-    assert_equal NotNil::NotNilClass.instance, not_nil
+    assert_equal NotNilClass.instance, not_nil
   end
 end

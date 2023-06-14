@@ -1,15 +1,13 @@
 # frozen_string_literal: true
 
-module NotNil
-  module TopLevel
-    def self.not_nil
-      ::NotNil::NotNilClass.instance
-    end
-  end
-end
-
+# Adds to the root in order for all objects to respond to `not_nil?`
 class Object
   def not_nil?
     !nil?
   end
+end
+
+# Adds not_nil as a global method.
+def not_nil
+  NotNilClass.instance
 end
