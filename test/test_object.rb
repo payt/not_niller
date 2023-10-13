@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require 'not_nil'
+require 'not_niller'
 
 class ObjectTest < Minitest::Test
   def test_defines_not_nil_on_object
