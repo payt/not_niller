@@ -15,4 +15,4 @@ class NotNilClass
   end
 end
 
-require 'not_nil/object'
+require 'not_niller/object'
