@@ -7,4 +7,6 @@ Gem::Specification.new do |spec|
   spec.files       = ['lib/not_niller.rb', 'lib/not_niller/object.rb']
   spec.authors     = ['Payt devs']
   spec.email       = ['devs@paytsoftware.com']
+  spec.homepage    = "https://github.com/payt/not_niller"
+  spec.license     = "MIT"
 end
